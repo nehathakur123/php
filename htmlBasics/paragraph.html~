@@ -1,0 +1,13 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example of HTML Paragraphs</title>
+</head>
+<body>
+	<p>This is a paragraph <br> with line break.</p>
+    <p>This is <br>another paragraph <br> with line breaks.</p>
+    <h6><a href="htmlbasicshome.html">HTML Basics</a> </h6>
+</body>
+</html>       

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Example of setting HTML table dimensions</title>
+</head>
+<body>
+	<table border="1" width="400" height="100">
+        <tr>
+            <td>row 1, cell 1</td>
+            <td>row 1, cell 2</td>
+        </tr>
+        <tr>
+            <td>row 2, cell 1</td>
+            <td>row 2, cell 2</td>
+        </tr>
+    </table>
+    <h6><a href="htmltable.html">HTML TABLES</a> </h6>
+    </body>
+</html>                            
