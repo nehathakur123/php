@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Box model introduction</title>
+
+
+
+
+
+</head>
+
+<body>
+<h4>The Box Model describes how the (visible or non-visible) box around an element is laid out and how stuff like margins, paddings and borders behave.</h4>
+<h4>Inline vs. Block elements</h4>
+<ul>
+<li>A block level element will naturally span the entire available width</li><br>
+<li>a block level element will automatically push following content to a new line, so by default, two block level elements can't stand next to each other</li><br>
+<li>Contrary to the block level element, an inline element does not break the current flow</li><br>
+<li>An inline element only takes up the space it needs to render its content and after that, more inline elements can be displayed.</li><br>
+<li>Elements are born as either invisible, inline or block level elements</li><br>
+<li>An example of inline elements include span tags (the generic inline element), links (anchors), images and form fields like input</li><br>
+<li>Common block level elements include div tags (the generic block level element), header tags (h1-h6), paragraphs, lists and tables</li><br>
+<li>the width and height properties are ignored for inline elements. Instead, you can use the line-height property to make an inline element smaller or bigger, as the space between each line grows or shrinks.</li><br>
+
+<footer>
+
+<h5>
+<a href="exampleboxmodel.html">Example of box model in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

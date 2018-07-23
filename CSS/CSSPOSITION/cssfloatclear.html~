@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Float-Clear example</title>
+<style type="text/css">
+.container {
+	width: 300px;
+	background-color: Gainsboro;
+	padding: 10px;
+	text-align: justify;
+}
+
+.image {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.footer {
+	background-color: Azure;
+	text-align: center;
+}
+
+.footer1 {
+	background-color: Azure;
+	text-align: center;
+	clear: both;
+}
+</style>
+
+<body>
+<h1>Without clear property</h1>
+
+<div class="container">
+	<img src="/home/neha/Desktop/htmlBasics/images/logo.jpeg" class="image">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. AAAAAAAAAAAAAA
+	<div class="footer">Footer</div>
+</div>	
+<h4 >	In this case, we want the footer element to take up all the space after the image of the text, but because the text doesn't take up enough room, the footer is moved up right below the text and then partly overlapped by the image. The solution to this problem comes from the clear property. It's specifically designed to clear existing floats, so that elements are once again laid out like you would expect from HTML and CSS.</h4>
+
+<h4>The clear property takes one of three different values: Both, Left or Right. This tells the browser if you want to clear only floats from the left or the right or if you want to clear floats from both directions.</h4>
+<h4><a href="cssfloatcollapse.html">Collapse property in CSS3</a> </h4>
+
+<h1>With clear property</h1>
+<div class="container">
+	<img src="/home/neha/Desktop/htmlBasics/images/logo.jpeg" class="image">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor placerat metus, sit amet egestas dui rutrum sed.
+	<div class="footer1">Footer</div>
+</div>	
+<h4><a href="cssfloatcollapse.html">Collapse property in CSS3</a> </h4>	
+
+</body>
+</html>

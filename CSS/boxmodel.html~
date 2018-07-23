@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3</title>
+</head>
+
+<body>
+<h1><label>Box model in CSS3</label></h1>
+<h3><ul>
+ <li>Introduction to the CSS Box Model </li>
+ <li>Margin </li>
+ <li>Border</li>
+ <li>Padding</li>
+ <li>Outlining</li>
+ <li>Visibility and Display</li>
+</ul>
+</h3>
+<footer>
+
+<h5>
+<a href="boxmodel.html">Box model in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Style position example</title>
+<style type="text/css">
+.parent {
+	background-color: Gainsboro;
+}
+
+.child {
+	float: left;
+	margin: 10px;
+	background-color: CornflowerBlue;
+	width: 50px;
+	height: 50px;
+	padding: 5px;
+}
+</style>
+</head>
+
+<body>
+<h1>Parent collapse property in css3</h1>
+<h4>without collapse property example</h4>
+<div class="parent">
+	<div class="child">Box</div>
+	<div class="child">Box</div>
+	<div class="child">Box</div>
+</div>
+<h4><a href="csswithcollapse.html">Parent collapse in CSS3</a> </h4>
+</body>
+</html>

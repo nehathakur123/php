@@ -1,0 +1,47 @@
+body {
+    background-color: powderblue; 
+
+}
+
+h1.basic {
+    background-color:pink;
+	color: blue;
+	font-family: verdana;
+    font-size: 300%;
+}
+p.norm {
+    color: red;
+	font-family: courier;
+    font-size: 160%;
+		
+}
+div {
+	background-color:lightgray;
+	height:200px;
+	width:50%;
+}
+
+div.spl {
+	background-color:yellow;
+	height:400px;
+	width:75%;
+}
+
+a {
+	color: hotpink;
+}
+
+a:link{
+	color:red;
+}
+a:visited {
+	color:green;
+}
+
+a:hover {
+	 color: hotpink;
+}
+
+a:active {
+	color: blue;
+}

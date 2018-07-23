@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+
+<h1>Transforms in CSS3</h1>
+<h2>The CSS3 transitions modules introduces four new properties</h2>
+<h3><strong>CSS3 transition-property</strong></h3>
+
+<h3>The transition property specifics which property the transition is applied to - be it color, background, border, and so fort!</h3>
+
+    <ul>
+    <li><h2><strong>Text and Background colors</strong></h2></li>
+    <h2><xmp>
+    <p style="color: Red;">Red text</p>
+	 <p style="color: Blue;">Blue text</p>
+	 
+	 <p style="background-color: Silver; color: Red;">Red text</p>
+ 	 <p style="background-color: Gold; color: Blue;">Blue text</p>
+	 </xmp></h2>
+    <hr>
+    <li><h2><strong>Colors in CSS3</strong></h2></li><br>
+    <h2><xmp> 
+    <p style="color: rgb(0,0,0);">Black text</p>
+    <p style="color: rgb(255,255,255); background-color: rgb(0,0,0);">White text</p>
+    
+    .box {
+	  background-color: rgba(128,128,128,0.3);
+	 }
+	 
+	 <p style="color: #000000;">Black text</p>
+	 <p style="color: #0000ff;">Blue text</p>
+	 <p style="color: #ff0000;">Red text</p>
+	 <p style="color: red;">Red text</p>
+    </xmp></h2>
+    <hr>  
+    <li><h2><strong>Background images</strong></h2></li>
+    <h2><xmp>
+    .box {
+	  background-image: url('http://css3-tutorial.net/images/blu_stripes.png');}
+    </xmp></h2>
+	 <hr>
+    <li><h2><strong>The background-repeat property</strong></h2></li>
+    <h2><xmp>
+    <style type="text/css">
+	 .box {
+	  background-image: url('http://css3-tutorial.net/images/blu_stripes.png');
+	  }
+	  </style>
+
+	 <div class="box" style="background-repeat: repeat;">
+	 Repeat
+	 </div>
+
+	 <div class="box" style="background-repeat: repeat-x;">
+	 Repeat-X
+	 </div>
+
+	 <div class="box" style="background-repeat: repeat-y;">
+	 Repeat-Y
+	 </div>
+
+	 <div class="box" style="background-repeat: no-repeat;">
+	 No-Repeat
+	 </div>
+    </xmp></h2>
+    <hr>
+    <li><h2><strong>The background-position property</strong></h2></li>
+    <h2><xmp>
+    <style type="text/css">
+    .box {
+	 background-image: url('http://css3-tutorial.net/images/blu_stripes.png');
+	 background-repeat: no-repeat;
+	 background-position: top center;
+	 }
+	 </style>
+    </xmp></h2>
+    </ul>
+    
+<footer>
+
+<h5>
+<a href="../CSSTRANSFORM/csstransform.html">Transformations in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

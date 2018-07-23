@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Style position example</title>
+<style type="text/css">
+.top-fixed {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: #eee;
+	padding: 3px 10px;
+}
+
+.t-fixed {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: #eee;
+	padding: 3px 10px;
+}
+</head>
+</style>
+<body>
+
+
+<br>
+<h1 class="t-fixed">Fixed positioning</h1>
+<div class="top-fixed"><h2>Fixed element (Top)</h2></div>
+<p style="margin-bottom: 12000px;margin-left: 420px;">Filler text</p>
+
+
+</body>
+</html>

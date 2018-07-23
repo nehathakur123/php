@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Padding in CSS3</title>
+
+
+<style type="text/css">
+.box1 {
+	border: 2px solid CadetBlue;
+	background-color: Gainsboro;
+}
+.box {
+	border: 2px solid CadetBlue;
+	background-color: Gainsboro;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.box2 {
+	border: 2px solid CadetBlue;
+	background-color: Gainsboro;
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+}
+
+.box3 {
+	border: 2px solid CadetBlue;
+	background-color: Gainsboro;
+	width: 100px;
+	height: 100px;
+	padding: 1em;
+	margin: 10px;
+}
+</style>
+
+</head>
+
+<body>
+<h3>Padding</h3>
+<h4>padding is an inner, invisible border around your element</h4>
+<h4>By default, most block level elements have zero padding, meaning that text and other content will go all the way to the edge of the parent element</h4>
+
+<div class="box1">
+	Hello, world!
+</div>
+
+<h4>padding properties are : padding-top, padding-right, padding-bottom and padding-left</h4>
+
+<div class="box">
+	Hello, world!
+</div>
+
+<h4>Using Padding shorthand properties</h4>
+<div class="box2" style="padding: 10px 10px 10px 10px;">
+	Box
+</div>
+
+<h4>Using Relative Padding</h4>
+<div class="box3" style="font-size: 1em;">
+	Box
+</div>
+
+<div class="box3" style="font-size: 2em;">
+	Box
+</div>
+
+<div class="box3" style="font-size: 3em;">
+	Box
+</div>
+<footer>
+
+<h5>
+<a href="cssoutline.html">Outlining in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

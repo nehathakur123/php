@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3</title>
+<style type="text/css">
+#box1 {
+	width: 100px;
+	height: 100px;
+	position : relative;
+	display: inline-block;
+}
+
+.box {
+	width: 80px;
+	height: 80px;
+	background-color: DarkSeaGreen;
+	padding: 10px;
+	margin: 20px;
+	position : relative;
+	display: inline-block;
+	
+}
+
+</style>
+</head>
+
+<body>
+<h1><label>Overflow in CSS3</label></h1>
+<h4>A block level element in CSS will, by default, take up all the horizontal space as well as all the vertical space it needs to fit the content inside of it. However, if we define a vertical size that is not enough to contain the content then overflow will occur.</h4>
+<h3>Example of overflow</h3>
+
+<div id="box1" style="background-color: GreenYellow;">
+	Some content....
+	More content...
+	There's probably not enough room for it in this tiny box...
+</div>
+
+<h3>Using overflow property</h3>
+
+<Div class="box" style="overflow: visible;">
+	Box 1 - A box with many, many words in it, designed to cause overflow
+</div>
+
+<div class="box" style="overflow: hidden;">
+	Box 2 - A box with many, many words in it, designed to cause overflow
+</div>
+
+<div class="box" style="overflow: auto;">
+	Box 3 - A box with many, many words in it, designed to cause overflow
+</div>
+
+<div class="box" style="overflow: scroll;">
+	Box 4 - A box with many, many words in it, designed to cause overflow
+</div>
+<br>
+<br>
+<h3>Types of overflow property:</h3>
+<h3><ul>
+ <li>visible</li>
+ <li>hidden </li>
+ <li>auto </li>
+ <li>scroll </li>
+</ul>
+
+<br>
+<h4>The default is visible, which is the behavior we saw in the first example - the content simply just expands beyond the border of the container.<br>For the second box, we use the hidden value. This will cause content which expands beyond the borders to simply be hidden, making it invisible to the end-user.<br> The auto value, used on the third box, leaves it up to the browser how to handle the problem. Most browsers, at least desktop browsers, will handle overflow by adding scrollbar(s) if necessary.</br>scroll option forcefully gives scollbar on both axes without considering overflow. </h4>
+</h3>
+<footer>
+
+<h5>
+<a href="../CSSPOSITION/cssposition.html">Positioning in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

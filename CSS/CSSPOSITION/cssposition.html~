@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Style position example</title>
+<style type="text/css">
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: red;
+  color: white;
+}
+
+#two,#three {
+  position:relative;
+  top: 20px;
+  left: 20px;
+  background: blue;
+}
+
+</style>
+</head>
+
+<body>
+<h1>Introduction to positioning</h1>
+<h3>Elements in a webpage are automatically laid out right after each other, in the order in which they are specified. This positioning model is called static and all elements use it by default. </h3>
+
+<h2>Position: static</h2>
+<h3> Static is the default way of positioning elements. In the static mode, elements are placed from top to bottom, within the available space of their parent, while respecting any margins set on the element itself or the surrounding elements.</h3>
+
+<h2>Position: relative</h2>
+<h3> As the name indicates, relative elements can be moved around within their parent element. By default, if the position property is relative, then element is placed as if it were static, but you can then use the top, bottom, left and right property to move it around by setting these values relative to the parent element.</h3>
+
+<h2>Position: absolute</h2>
+<h3> An absolute positioned element is placed exactly where you want it to within the browser window, by adjusting the top, bottom, left and/or right properties. This means that you can place elements e.g. in the top, right corner, even if your main page has been tied to the middle of the screen. The exception to this is if you place an element with an absolute position inside of a relatively positioned element - in that case, the child element will be confined to the space of the parent element instead of the entire window. </h3>
+
+<h2>Position: fixed</h2>
+<h3>By using the fixed property, the element will be positioned as if it were absolute, with one very important addition: When the user scrolls, the fixed element will remain in this position all the time. </h3>
+
+<h2>Floating</h2>
+<h3>Besides the position property, floating of elements also causes the position to be changed. </h3>
+<h4><a href="cssrelativepos.html">Relative positioning in CSS3</a> </h4>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3</title>
+<style type="text/css">
+.box {
+	width: 50px;
+	height: 50px;
+	background-color: DarkSeaGreen;
+	padding: 10px;
+	margin: 20px;
+	display:inline-block;
+}
+
+.box1 {
+	background-color: DarkSeaGreen;
+	padding: 10px;
+	margin: 20px;
+	
+	display:inline-table;
+}
+</style>
+</head>
+
+<body>
+<h1><label>Dimensions in CSS3(Width and Height)</label></h1>
+<div>
+<div class="box">
+	Box 1 - Default
+</div>
+
+<div class="box" style="min-height: 80px; min-width: 80px;">
+	Box 2 - Minimum height and width
+</div>
+</div>
+<div class="box1" >
+	Box 1 - Default
+
+</div>
+<div class="box1" style="max-height: 100px; max-width: 100px;">
+	Box 2 - Maximum height and width
+</div>
+
+<div class="box1" style="max-height: 100px; max-width: 100px;">
+	Box 3 - Maximum height and width, this time with more content
+</div>
+
+<footer>
+
+<h5>
+<a href="cssoverflow.html">Dimension properties of CSS3 </a>
+</h5>
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>CSS in HTML5</title>
+
+
+</head>
+
+<!-- Internal style is applied to tags directly -->
+
+<style>
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: white;
+    text-align: left;
+}
+
+h3 {
+    color: red;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p {
+    font-family: verdana;
+    font-size: 20px;
+	text-align: center;
+}
+
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+
+div {
+    max-width:400px;
+	height: 200px;
+    width: 50%;
+    background-color: seagreen;
+	border: 10px solid green;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+
+</style>
+</head>
+
+
+<body>
+<!-- style rules apply same for every similar element -->
+
+<h1>Internal CSS Example</h1>
+<p>This is a paragraph.</p>
+
+<h1> Second heading </h1>
+<p> Second paragraph is here <p>
+
+<h2> Heading h2 is without any styling</h2>
+
+<!-- we will use the id for referencing the style  -->
+<p id="para1"> This is a para with an id <p>
+
+<p id="para1" > One more line of para with an id <p>
+
+
+<h3> This is heading 3 decorated by the style. </h3>
+
+<div>
+<p> This is a para in a division </p>
+<p> Div is used to make sections of your web page </p>
+
+</div>
+<footer>
+
+<h5>
+<a href="externalcss.html">External CSS</a>
+</h5>
+</footer>
+
+</body>
+</html>

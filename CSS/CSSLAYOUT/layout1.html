@@ -1,0 +1,133 @@
+<!doctype html>
+<head>
+<title>Layout1</title>
+<style>
+.image1{
+width:150px;
+height: 150px;
+float:left;
+position:relative;
+
+}
+header{
+width:99%;
+
+background-color: yellow;
+padding: 5px;
+margin-bottom: 10px;
+
+}
+header:after{
+content: " ";
+display: block;
+clear: both;
+}
+.heading1{
+	text-align: center;
+	font-size: 2em;
+	color: brown;
+}
+
+nav{
+width:99%;
+height: 50px;
+background-color: lightgray;
+padding: 5px;
+margin-bottom: 10px;
+
+position:relative;
+}
+.container{
+width:99%;
+height: 300px;
+background-color: lightsalmon;
+padding: 5px;
+margin-bottom: 10px;
+
+position:relative;
+
+}
+.container:after{
+content: ".";
+display: block;
+clear: both;
+}
+
+aside.left{
+width:25%;
+height: 295px;
+background-color: lightsteelblue;
+float: left;
+margin-right: 0.5%;
+position:relative;
+}
+
+aside.right{
+width:25%;
+height: 295px;
+background-color: lightsteelblue;
+display: table;
+margin-left: 0.5%;
+
+}
+
+article{
+width:49%;
+height: 145px;
+background-color: lightcyan;
+float:left;
+position: relative;
+display: block;
+
+margin-right: 5px;
+}
+
+footer{
+width:99%;
+height: 50px;
+background-color: lightcoral;
+padding: 5px;
+
+}
+
+section{
+width:49%;
+height: 145px;
+background-color: lightcyan;
+position:relative;
+float: left;
+margin-top: 5px;
+margin-right: 5px;
+}
+</style>
+
+
+</head>
+<body>
+<header>
+<img src="/home/neha/Desktop/htmlBasics/images/logo.jpeg" alt="DMCE" class="image1">
+<h2 class="heading1">DATTA MEGHE COLLEGE OF ENGINEERING</h2>
+<h3 style="text-align: center;color: brown;">DEPARMENT OF INFORMATION TECHNOLOGY</h3>
+<h5 style="text-align: center;color: brown;">SECTOR-3,AIROLI,NAVI MUMBAI-400708</h5>
+<div style="clear: both;"></div>
+</header>
+<nav>
+<div>This is nav bar</div>
+</nav>
+<div class="container" style="display: inline-block;">
+<aside class="left">This is left aside</aside>
+<article>This is article</article>
+<section>This is section</section>
+<aside class="right">This is right aside</aside>
+
+</div>
+
+<footer style="clear: both;">
+This is footer
+</footer>
+
+
+
+
+
+</body>

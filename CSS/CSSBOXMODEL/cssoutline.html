@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Outline in CSS3</title>
+<style type="text/css">
+.box {
+	background-color: #eee;
+	outline: 3px solid LightCoral;
+	border: 3px solid LightBlue;
+	padding: 5px 10px;
+}
+
+.box1 {
+	background-color: #eee;
+	border: 3px solid LightBlue;
+	padding: 5px 10px;
+	outline-width: 3px;
+	outline-style: solid;
+	outline-color: LightCoral;
+}
+
+.box2 {
+	outline-color: CornflowerBlue;
+	outline-width: 4px;
+	margin: 10px;
+	float: left;
+	border: 2px solid LightCoral;
+	padding: 5px 10px;
+}
+
+.box3 {
+	background-color: #eee;
+	outline: 3px solid LightCoral;
+	outline-offset: 3px;
+	border: 3px solid LightBlue;
+	padding: 5px 10px;
+	position: fixed;
+	top: 530px;
+}
+</style>
+
+
+
+
+</head>
+
+<body>
+<h4>Outline</h4>
+<h4>With the outline properties, one can get an extra border, for extra visual attention for the element</h4>
+<div class="box">Hello, world!</div>
+<h4>Differences between border and outline</h4>
+<ul>
+<li><h4>We cannot apply a different outline width, style and color for the four sides of an element, like we can with the border - the values provided will be used for all four sides of the element</h4></li>
+<li><h4>The outline is not a part of the element's dimensions, like the border is. This also means that the Browser won't reserve the required space for the outline </h4></li></ul>
+
+<h4>Shorthand properties of outline are : outline-width, outline-style and outline-color </h4>
+
+<div class="box1">Hello, world!</div>
+
+<h4>Ouline styles are : hidden,dotted, dashed, solid, double, groove, ridge, inset and outset</h4>
+<div class="box2" style="outline-style: dashed;">Dashed</div>
+<div class="box2" style="outline-style: dotted;">Dotted</div>
+<div class="box2" style="outline-style: double;">Double</div>
+<div class="box2" style="outline-style: groove;">Groove</div>
+<div class="box2" style="outline-style: inset;">Inset</div>
+<div class="box2" style="outline-style: outset;">Outset</div>
+<div class="box2" style="outline-style: ridge;">Ridge</div>
+<div class="box2" style="outline-style: solid;">Solid</div>
+
+<div class="box3">Outline Offset ----- Hello, world!</div>
+<footer>
+
+<h5 >
+<a href="cssvisdis.html">Visibility and Display in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>

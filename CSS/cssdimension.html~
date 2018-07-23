@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS3</title>
+</head>
+
+<body>
+<h1><label>Dimensions in CSS3(Width and Height)</label></h1>
+<h4>There are four properties of CSS dimensions : min-height, max-height, min-width and max-width</h4>
+<h3><ul>
+ <li>Minimum and maximum width/height </li>
+ <li>Overflow  </li>
+ 
+</ul>
+</h3>
+<footer>
+
+<h5>
+<a href="cssminmaxwidheig.html">Introduction to Box model in CSS3 </a>
+</h5>
+</footer>
+</body>
+</html>
